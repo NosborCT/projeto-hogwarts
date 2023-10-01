@@ -39,24 +39,50 @@
 
 @media(max-width:425px) {
     main .casa .imagem{
-        height: auto;
+        height: 100vh;
     }
-    .conteudo .logo{
-        width: 170px;
-        height: 75px;
-        
+    
+    main .casa .portrait {
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        height: 50vh;
+        border-radius: 25px;
+    
     }
     .conteudo{
-        top: -30%;
+        left: 0;
+        top: 15%;        
    }
+   .conteudo .descricao {
+    font-size: 10px;
+    max-width: 700px;
+    min-height: 50vh;
+
+}
    .conteudo .nome-casa{
-    font-size: 24px;
+    font-size: 18px;
    }
    .botoes{
     padding: 20%;
-    top: -20%;
+    justify-content: end;
+    align-items: end;
+    width:12vw;
+    top: 15%;
    }
    .botoes .botao img{
-    max-width: 50px;
+    max-width: 40px;
    }
+.conteudo .custom-btn {
+    width: 70px;
+    height: 60px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 10px;
+    justify-content: end;
+    align-items: end;
+    flex-wrap:wrap-reverse;
+    
+}
 }
