@@ -17,6 +17,7 @@ botoes.forEach((botao, indice) => {
 })
 
 
+
 function desselecionarCasa() {
     const casaSelecionada = document.querySelector(".casa.selecionado");
     casaSelecionada.classList.remove("selecionado");
