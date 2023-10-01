@@ -31,7 +31,7 @@ main .casa .portrait {
     position: absolute;
     top: 50px;
     left: 200px;
-    height: 1200px;
+    height: 700px;
     border-radius: 25px;
 
 }
@@ -39,7 +39,7 @@ main .casa .portrait {
 .conteudo {
     position: absolute;
     top: 0;
-    right: 500px;
+    right: 200px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
