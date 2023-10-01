@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Hogwarts</title>
+</head>
+
+<body>
+
+    <!–Definindo as casas –>
+
+        <main class="casas">
+            <!– Casa 1 - Ravenclaw –>
+                <div class="casa">
+                    <img src="./src/imagens/ravenclawWallpaper.png" alt="Ravenclaw">
+                    <div class="portrait">
+                        <img src="./src/imagens/rowena_ravenclaw.jpg" alt="" class="portrait">
+                    </div>
+
+                    <div class="conteudo">
+                        <h2 class="nome-casa">Ravenclaw</h2>
+                        <p class="descricao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae quibusdam doloribus
+                            delectus hic quidem ratione consequatur praesentium dignissimos aspernatur dolorem, ut
+                            architecto a. Maxime corrupti odit iusto mollitia explicabo!
+                        </p>
+                    </div>
+                </div>
+                <!– Casa 2 - Gryffindor –>
+
+                    <div class="casa">
+                        <img src="./src/imagens/gryffindorWallpaper.png" alt="Gryffindor">
+                        <div class="portrait">
+                            <img src="./src/imagens/godrick-griffindor.jpg" alt="" class="portrait">
+                        </div>
+                        <div class="conteudo">
+                            <i class="logo"></i>
+                            <h2 class="nome-casa">Gryffindor</h2>
+                            <p class="descricao">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae quibusdam
+                                doloribus delectus hic quidem ratione consequatur praesentium dignissimos aspernatur
+                                dolorem, ut architecto a. Maxime corrupti odit iusto mollitia explicabo!
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="casa selecionado">
+                        <img src="./src/imagens/hogwartsWalpaper.png" alt="Hogwarts">
+                        <div class="conteudo">
+                            <i class="logo"></i>
+                            <h2 class="nome-casa">Hogwarts</h2>
+                            <p class="descricao">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae quibusdam
+                                doloribus delectus hic quidem ratione consequatur praesentium dignissimos aspernatur
+                                dolorem, ut architecto a. Maxime corrupti odit iusto mollitia explicabo!
+                            </p>
+                            <button class="custom-btn btn-1"
+                                onclick="window.location.href = './materias.html'">Materias</button>
+                        </div>
+
+                    </div>
+
+                    <!– Casa 3 - Slytherin –>
+
+                        <div class="casa">
+                            <img src="./src/imagens/slytherinWallpaper.png" alt="Slytherin">
+                            <div class="portrait">
+                                <img src="./src/imagens/salazar_slytherin.jpg" alt="" class="portrait">
+                            </div>
+                            <div class="conteudo">
+                                <i class="logo"></i>
+                                <h2 class="nome-casa">Slytherin</h2>
+                                <p class="descricao">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae quibusdam
+                                    doloribus delectus hic quidem ratione consequatur praesentium dignissimos aspernatur
+                                    dolorem, ut architecto a. Maxime corrupti odit iusto mollitia explicabo!
+                                </p>
+                            </div>
+                        </div>
+
+                        <!– Casa 4 - Hufflepuff –>
+
+                            <div class="casa">
+                                <img src="./src/imagens/hufflepuffWallpaper.png" alt="Hufflepuff">
+                                <div class="portrait">
+                                    <img src="./src/imagens/helga_hufflepuff.jpg" alt="" class="portrait">
+                                </div>
+                                <div class="conteudo">
+                                    <i class="logo"></i>
+                                    <h2 class="nome-casa">Hufflepuff</h2>
+                                    <p class="descricao">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae quibusdam
+                                        doloribus delectus hic quidem ratione consequatur praesentium dignissimos
+                                        aspernatur dolorem, ut architecto a. Maxime corrupti odit iusto mollitia
+                                        explicabo!
+                                    </p>
+                                </div>
+                            </div>
+
+
+        </main>
+
+        <!- Definindo os botoes ->
+            <ul class="botoes">
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/ravenclaw-logo.png" alt="ravenclaw-logo">
+                    </button>
+                </li>
+
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/gryffindor-logo.png" alt="ravenclaw-logo">
+                    </button>
+                </li>
+
+                <li>
+                    <button class="botao selecionado">
+                        <img src="./src/imagens/hogwarts-logo.png" alt="ravenclaw-logo">
+                    </button>
+                </li>
+
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/slytherin-logo.png" alt="ravenclaw-logo">
+                    </button>
+                </li>
+
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/hufflepuff-logo.png" alt="ravenclaw-logo">
+                    </button>
+                </li>
+
+
+            </ul>
+
+            <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
